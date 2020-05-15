@@ -15,6 +15,7 @@ delay(2000);
 float h = dht.readHumidity();
 float t = dht.readTemperature();
 
+Serial.print("My Name Is Minsu\n");
 Serial.print(F("Humidity: "));
 Serial.print(h);
 Serial.print(F("% Temperature: "));
